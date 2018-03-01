@@ -1,0 +1,4 @@
+$(".text").hide();
+$('#text<%=@mail.id%>').html("<%= j (render 'show') %>");
+$('#text<%=@mail.id%>').slideDown(350);
+$('#row<%=@mail.id%>').attr('class', 'rowtrue');
